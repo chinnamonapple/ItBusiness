@@ -1,5 +1,6 @@
 'use client'
 import { AiOutlineMenu, AiOutlineSearch } from 'react-icons/ai'
+import Link from 'next/link'
 /** Scroll 영역이 밑으로 내려간다면 Nav 변환 */
 
 export const Nav = () => {
@@ -17,7 +18,9 @@ export const Nav = () => {
       </ul>
       <ul className='flex items-center list-none gap-x-[50px]'>
         <li><AiOutlineSearch /></li>
-        <li>상담문의</li>
+        <li>
+          <Link href={'/consulting'}>상담문의</Link>
+        </li>
       </ul>
     </nav>
   )

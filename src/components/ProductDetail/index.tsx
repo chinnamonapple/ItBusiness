@@ -12,6 +12,8 @@ export const ProductDetail = () => {
         <Card src={"/products/2.jpg"} />
         <Card src={"/products/3.jpg"} />
         <Card src={"/products/4.jpg"} />
+        <Card src={"/products/5.jpg"} />
+        <Card src={"/products/6.jpg"} />
       </div>
     </div>
   )
