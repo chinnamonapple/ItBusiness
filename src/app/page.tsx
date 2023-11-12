@@ -9,8 +9,8 @@ import { MobileNav } from '@/components/Navigation/mobile';
 
 
 export const metadata: Metadata = {
-  title: 'Dashboard',
-  description: 'User dashboard',
+  title: '아이티 비즈니스',
+  description: '사무 기기, 복사기, 프린터, 복합기 임대 및 판매 전문점 입니다. 언제든 어디서든 찾아가겠습니다. ',
 };
 
 const Dashboard = () => (
